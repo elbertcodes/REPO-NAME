@@ -1,10 +1,15 @@
 import React from 'react';
-// import './App.css';
+import {POPOSSpace} from './POPOSSpace';
+import POPOSList from './POPOSList';
 import Title from './Title';
 
 function App() {
   return (
-    <Title/>
+   <div className="App">
+     <Title/>
+     <POPOSList/>
+   </div>
+    
   );
 }
 
