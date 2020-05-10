@@ -1,15 +1,16 @@
-import React from 'react';
-import {POPOSSpace} from './POPOSSpace';
-import POPOSList from './POPOSList';
-import Title from './Title';
+import React from "react";
+import { POPOSSpace } from "./POPOSSpace";
+import POPOSList from "./POPOSList";
+import Footer from "./Footer";
+import Title from "./Title";
 
 function App() {
   return (
-   <div className="App">
-     <Title/>
-     <POPOSList/>
-   </div>
-    
+    <div className="App">
+      <Title />
+      <POPOSList />
+      <Footer />
+    </div>
   );
 }
 
